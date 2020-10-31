@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <form action="contact.php" methode="POST">
+            <fieldset>
+            <legend>Registrasi</legend>
+            <p>
+                <label>Name:</label>
+                <input type="text" name="name" placeholder="name...">
+            </p>
+            <p>
+                <label>Username:</label>
+                <input type="text" name="Username" placeholder="username...">
+            </p>
+            <p>
+                <label>Email</label>
+                <input type="text" name="Email" placeholder="your Email...">
+            </p>
+            <p>
+                <label>Password</label>
+                <input type="password" name="password" placeholder="password...">
+            </p>
+            <p>
+                <label>Jenis Kelamin</label>
+                <label><input type="radio" name="jenis_kelamin" value="laki-laki"/>Laki-Laki</label>
+                <label><input type="radio" name="jenis_kelamin" value="Prempuan"/>Prempuan</label>
+            </p>
+            <p>
+                <label>Agama</label>
+                <select>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Bhudha">Bhudha</option>
+                    <option value="Khonghucu">Khonghucu</option>
+                </select>
+            </p>
+            <p>
+                <label>Biografi:</label>
+                <textarea name="bioografi"></textarea>
+            </p>
+            <p>
+                <input type="submit" name="sumbit" value="Daftar"/>
+            </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
